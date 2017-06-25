@@ -64,33 +64,9 @@ Class Router
   */
   public function match($url)
   {
-    // foreach($this->routes as $route => $params){
-    //   if($url == $route){
-    //     $this->params = $params;
-    //     return true;
-    //   }
-    // }
-    
-    // Match the fixd Url format /controller/action
-    //$reg_exp = "/^(?P<controller>[a-z]+)\/(?P<action>[a-z]+)$/";
-   
-    // if(preg_match($reg_exp, $url, $matches)){
-    //   $params = [];
-
-    //   foreach($matches as $key => $match){
-    //     if(is_string($key)){
-    //       $params[$key] = $match;
-    //     }
-    //   }
-
-    //   $this->params = $params;
-    //   return true;
-    // }
-
     foreach ($this->routes as $route => $params){
       if(preg_match($route, $url, $matches)){
         // Get name capture group values
-        //$params = []
         foreach ($matches as $key => $match){
           if(is_string($key)){
             $params[$key] = $match;
