@@ -10,7 +10,12 @@ class Home extends \Core\Controller
   {
     // echo "Hello from the index action of the Home controller!";
       // View::render('Home/index.php');
-      View::render('Home/index.php', [
+      // View::render('Home/index.php', [
+      //   'name' => 'Shelton',
+      //   'colors' => ['red', 'black', 'green']
+      // ]);
+
+      View::renderTemplate('Home/index.html', [
         'name' => 'Shelton',
         'colors' => ['red', 'black', 'green']
       ]);
