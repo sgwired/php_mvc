@@ -7,6 +7,8 @@ require '../vendor/autoload.php';
 
 Twig_Autoloader::register();
 
+set_error_handler('Core\Error::errorHandler');
+set_exception_handler('Core\Error::exceptionHandler');
 // spl_autoload_register(function ($class){
 //   $root = dirname(__DIR__);
 //   $file = $root . '/' . str_replace('\\', '/', $class) . '.php';

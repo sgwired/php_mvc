@@ -21,7 +21,8 @@ abstract class Controller
         $this->after();
       }
     } else {
-      echo "Method $method not found in controller " . get_class($this);
+      // echo "Method $method not found in controller " . get_class($this);
+       $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     }
   }
 
