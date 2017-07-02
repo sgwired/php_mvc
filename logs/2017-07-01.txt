@@ -1,0 +1,60 @@
+[01-Jul-2017 17:22:34 America/Los_Angeles] Uncaught exception: 'Twig_Error_Loader' with message 'Unable to find template "Home/inde.html" (looked into: ../App/Views).'
+Stack trace: #0 C:\Program Files (x86)\Ampps\wwwdev\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(150): Twig_Loader_Filesystem->findTemplate('Home/inde.html')
+#1 C:\Program Files (x86)\Ampps\wwwdev\vendor\twig\twig\lib\Twig\Environment.php(329): Twig_Loader_Filesystem->getCacheKey('Home/inde.html')
+#2 C:\Program Files (x86)\Ampps\wwwdev\vendor\twig\twig\lib\Twig\Environment.php(419): Twig_Environment->getTemplateClass('Home/inde.html')
+#3 C:\Program Files (x86)\Ampps\wwwdev\vendor\twig\twig\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Home/inde.html')
+#4 C:\Program Files (x86)\Ampps\wwwdev\Core\View.php(30): Twig_Environment->render('Home/inde.html', Array)
+#5 C:\Program Files (x86)\Ampps\wwwdev\App\Controllers\Home.php(21): Core\View::renderTemplate('Home/inde.html', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 C:\Program Files (x86)\Ampps\wwwdev\Core\Controller.php(20): call_user_func_array(Array, Array)
+#8 C:\Program Files (x86)\Ampps\wwwdev\Core\Router.php(113): Core\Controller->__call('index', Array)
+#9 C:\Program Files (x86)\Ampps\wwwdev\Core\Router.php(113): App\Controllers\Home->index()
+#10 C:\Program Files (x86)\Ampps\wwwdev\public\index.php(28): Core\Router->dispatch('')
+#11 {main}
+Thrown in 'C:\Program Files (x86)\Ampps\wwwdev\vendor\twig\twig\lib\Twig\Loader\Filesystem.php' on line 232
+[01-Jul-2017 17:22:41 America/Los_Angeles] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\Program Files (x86)\Ampps\wwwdev\public\index.php(28): Core\Router->dispatch('what')
+#1 {main}
+Thrown in 'C:\Program Files (x86)\Ampps\wwwdev\Core\Router.php' on line 125
+[01-Jul-2017 17:22:43 America/Los_Angeles] Uncaught exception: 'Twig_Error_Loader' with message 'Unable to find template "Home/inde.html" (looked into: ../App/Views).'
+Stack trace: #0 C:\Program Files (x86)\Ampps\wwwdev\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(150): Twig_Loader_Filesystem->findTemplate('Home/inde.html')
+#1 C:\Program Files (x86)\Ampps\wwwdev\vendor\twig\twig\lib\Twig\Environment.php(329): Twig_Loader_Filesystem->getCacheKey('Home/inde.html')
+#2 C:\Program Files (x86)\Ampps\wwwdev\vendor\twig\twig\lib\Twig\Environment.php(419): Twig_Environment->getTemplateClass('Home/inde.html')
+#3 C:\Program Files (x86)\Ampps\wwwdev\vendor\twig\twig\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Home/inde.html')
+#4 C:\Program Files (x86)\Ampps\wwwdev\Core\View.php(30): Twig_Environment->render('Home/inde.html', Array)
+#5 C:\Program Files (x86)\Ampps\wwwdev\App\Controllers\Home.php(21): Core\View::renderTemplate('Home/inde.html', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 C:\Program Files (x86)\Ampps\wwwdev\Core\Controller.php(20): call_user_func_array(Array, Array)
+#8 C:\Program Files (x86)\Ampps\wwwdev\Core\Router.php(113): Core\Controller->__call('index', Array)
+#9 C:\Program Files (x86)\Ampps\wwwdev\Core\Router.php(113): App\Controllers\Home->index()
+#10 C:\Program Files (x86)\Ampps\wwwdev\public\index.php(28): Core\Router->dispatch('')
+#11 {main}
+Thrown in 'C:\Program Files (x86)\Ampps\wwwdev\vendor\twig\twig\lib\Twig\Loader\Filesystem.php' on line 232
+[01-Jul-2017 17:22:44 America/Los_Angeles] Uncaught exception: 'Twig_Error_Loader' with message 'Unable to find template "Home/inde.html" (looked into: ../App/Views).'
+Stack trace: #0 C:\Program Files (x86)\Ampps\wwwdev\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(150): Twig_Loader_Filesystem->findTemplate('Home/inde.html')
+#1 C:\Program Files (x86)\Ampps\wwwdev\vendor\twig\twig\lib\Twig\Environment.php(329): Twig_Loader_Filesystem->getCacheKey('Home/inde.html')
+#2 C:\Program Files (x86)\Ampps\wwwdev\vendor\twig\twig\lib\Twig\Environment.php(419): Twig_Environment->getTemplateClass('Home/inde.html')
+#3 C:\Program Files (x86)\Ampps\wwwdev\vendor\twig\twig\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Home/inde.html')
+#4 C:\Program Files (x86)\Ampps\wwwdev\Core\View.php(30): Twig_Environment->render('Home/inde.html', Array)
+#5 C:\Program Files (x86)\Ampps\wwwdev\App\Controllers\Home.php(21): Core\View::renderTemplate('Home/inde.html', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 C:\Program Files (x86)\Ampps\wwwdev\Core\Controller.php(20): call_user_func_array(Array, Array)
+#8 C:\Program Files (x86)\Ampps\wwwdev\Core\Router.php(113): Core\Controller->__call('index', Array)
+#9 C:\Program Files (x86)\Ampps\wwwdev\Core\Router.php(113): App\Controllers\Home->index()
+#10 C:\Program Files (x86)\Ampps\wwwdev\public\index.php(28): Core\Router->dispatch('')
+#11 {main}
+Thrown in 'C:\Program Files (x86)\Ampps\wwwdev\vendor\twig\twig\lib\Twig\Loader\Filesystem.php' on line 232
+[01-Jul-2017 17:23:08 America/Los_Angeles] Uncaught exception: 'Twig_Error_Loader' with message 'Unable to find template "Home/inde.html" (looked into: ../App/Views).'
+Stack trace: #0 C:\Program Files (x86)\Ampps\wwwdev\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(150): Twig_Loader_Filesystem->findTemplate('Home/inde.html')
+#1 C:\Program Files (x86)\Ampps\wwwdev\vendor\twig\twig\lib\Twig\Environment.php(329): Twig_Loader_Filesystem->getCacheKey('Home/inde.html')
+#2 C:\Program Files (x86)\Ampps\wwwdev\vendor\twig\twig\lib\Twig\Environment.php(419): Twig_Environment->getTemplateClass('Home/inde.html')
+#3 C:\Program Files (x86)\Ampps\wwwdev\vendor\twig\twig\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Home/inde.html')
+#4 C:\Program Files (x86)\Ampps\wwwdev\Core\View.php(30): Twig_Environment->render('Home/inde.html', Array)
+#5 C:\Program Files (x86)\Ampps\wwwdev\App\Controllers\Home.php(21): Core\View::renderTemplate('Home/inde.html', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 C:\Program Files (x86)\Ampps\wwwdev\Core\Controller.php(20): call_user_func_array(Array, Array)
+#8 C:\Program Files (x86)\Ampps\wwwdev\Core\Router.php(113): Core\Controller->__call('index', Array)
+#9 C:\Program Files (x86)\Ampps\wwwdev\Core\Router.php(113): App\Controllers\Home->index()
+#10 C:\Program Files (x86)\Ampps\wwwdev\public\index.php(28): Core\Router->dispatch('')
+#11 {main}
+Thrown in 'C:\Program Files (x86)\Ampps\wwwdev\vendor\twig\twig\lib\Twig\Loader\Filesystem.php' on line 232
